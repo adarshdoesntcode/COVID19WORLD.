@@ -1,0 +1,915 @@
+{
+  "AF":{
+    "searchquery":"Afghanistan",
+    "population": 38928341
+  }
+  ,
+  "AL":{
+    "searchquery":"Albania",
+    "population": 2877800
+  }
+  ,
+  "DZ":{
+    "searchquery":"Algeria",
+    "population": 43851043
+  }
+  , 
+  "AD":{
+    "searchquery":"Andorra",
+    "population": 77265
+  }
+  ,
+  "AO":{
+    "searchquery":"Angola",
+    "population": 32866268
+  }
+  ,
+  "AI":{
+    "searchquery":"Anguilla",
+    "population": 15002
+  }
+  ,
+  "AG":{
+    "searchquery":"Antigua%20and%20Barbuda",
+    "population": 97928
+  }
+  ,
+  "AR":{
+    "searchquery":"Argentina",
+    "population": 45195777
+  }
+  ,
+  "AM":{
+    "searchquery":"Armenia",
+    "population": 2963234
+  }
+  ,
+  "AW":{
+    "searchquery":"Aruba",
+    "population": 106766
+  }
+  ,
+  "AU":{
+    "searchquery":"Australia",
+    "population": 25499881
+  }
+  ,
+  "AT":{
+    "searchquery":"Austria",
+    "population": 	9006400
+  }
+  ,
+  "AZ":{
+    "searchquery":"Azerbaijan",
+    "population": 10139175
+  },
+  "BS":{
+    "searchquery":"Bahamas",
+    "population": 	393248 
+  },
+  "BH":{
+    "searchquery":"Bahrain",
+    "population": 1701583 
+  },
+  "BD":{
+    "searchquery":"Bangladesh",
+    "population": 164689383 
+  },
+  "BB":{
+    "searchquery":"Barbados",
+    "population": 	287371 
+  },
+  "BY":{
+    "searchquery":"Belarus",
+    "population": 9449321 
+  },
+  "BE":{
+    "searchquery":"Belgium",
+    "population": 11589616 
+  },
+  "BZ":{
+    "searchquery":"Belize",
+    "population": 397621 
+  },
+  "BJ":{
+    "searchquery":"Benin",
+    "population": 12123198 
+  },
+  "BM":{
+    "searchquery":"Bermuda",
+    "population": 62273 
+  },
+  "BT":{
+    "searchquery":"Bhutan",
+    "population": 771612 
+  },
+  "BO":{
+    "searchquery":"Bolivia",
+    "population": 11673029 
+  },
+  "BA":{
+    "searchquery":"Bosnia%20and%20Herzegovina",
+    "population": 3280815 
+  },
+  "BW":{
+    "searchquery":"Botswana",
+    "population": 2351625 
+  },
+  "BR":{
+    "searchquery":"Brazil",
+    "population": 212559409 
+  },
+  "VG":{
+    "searchquery":"British Virgin Islands",
+    "population": 30237 
+  },
+  "BN":{
+    "searchquery":"Brunei",
+    "population": 437483 
+  },
+  "BG":{
+    "searchquery":"Bulgaria",
+    "population": 6948445 
+  },
+  "BF":{
+    "searchquery":"Burkina%20Faso",
+    "population": 20903278 
+  },
+  "BI":{
+    "searchquery":"Burundi",
+    "population": 11890781 
+  },
+  "KH":{
+    "searchquery":"Cambodia",
+    "population": 16718971 
+  },
+  "CM":{
+    "searchquery":"Cameroon",
+    "population": 26545864 
+  },
+  "CA":{
+    "searchquery":"Canada",
+    "population": 37742157 
+  },
+  "CV":{
+    "searchquery":"Cape%20Verde",
+    "population": 	555988 
+  },
+  "KY":{
+    "searchquery":"Cayman%20Islands",
+    "population": 65720 
+  },
+  "CF":{
+    "searchquery":"Central%20African%20Republic",
+    "population": 	4829764 
+  },
+  "TD":{
+    "searchquery":"Chad",
+    "population": 16425859 
+  },
+  "CL":{
+    "searchquery":"Chile",
+    "population": 	19116209 
+  },
+  "CN":{
+    "searchquery":"China",
+    "population": 1439323774 
+  },
+  "CO":{
+    "searchquery":"Colombia",
+    "population": 	50882884 
+  },
+  "KM":{
+    "searchquery":"Comoros",
+    "population": 	869595 
+  },
+  "CG":{
+    "searchquery":"Congo",
+    "population": 	5518092 
+  },
+  "CK":{
+    "searchquery":"Cook%20Islands",
+    "population": 17564 
+  },
+  "CR":{
+    "searchquery":"Costa%20Rica",
+    "population": 	5094114
+  },
+  "CI":{
+    "searchquery":"Cote%20d'Ivoire",
+    "population": 26378275
+  },
+  "HR":{
+    "searchquery":"Croatia",
+    "population": 4105268 
+  },
+  "CU":{
+    "searchquery":"Cuba",
+    "population": 	11326616 
+  },
+
+  "CY":{
+    "searchquery":"Cyprus",
+    "population": 	875899 
+  },
+  "CZ":{
+    "searchquery":"Czechia",
+    "population": 10708982 
+  },
+  "DK":{
+    "searchquery":"Denmark",
+    "population": 	5792203 
+  },
+  "DJ":{
+    "searchquery":"Djibouti",
+    "population": 988002 
+  },
+  "DM":{
+    "searchquery":"Dominica",
+    "population": 71991 
+  },
+  "DO":{
+    "searchquery":"Dominican%20Republic",
+    "population": 10847904 
+  },
+  "EC":{
+    "searchquery":"Ecuador",
+    "population": 	17643060 
+  },
+  "EG":{
+    "searchquery":"Egypt",
+    "population": 	102334403 
+  },
+  "SV":{
+    "searchquery":"El%20Salvador",
+    "population": 	6486201 
+  },
+  "GQ":{
+    "searchquery":"Equatorial%20Guinea",
+    "population": 	1402985 
+  },
+  "ER":{
+    "searchquery":"Eritrea",
+    "population": 	3546427 
+  },
+  "EE":{
+    "searchquery":"Estonia",
+    "population": 	1326539 
+  },
+  "ET":{
+    "searchquery":"Ethiopia",
+    "population": 	114963583 
+  },
+  "FO":{
+    "searchquery":"Faeroe%20Islands",
+    "population": 	48865 
+  },
+  "FK":{
+    "searchquery":"Falkland%20Islands",
+    "population": 3483 
+  },
+  "FJ":{
+    "searchquery":"Fiji",
+    "population": 896444 
+  },
+  "FI":{
+    "searchquery":"Finland",
+    "population": 5540718 
+  },
+  "FR":{
+    "searchquery":"France",
+    "population": 	67564251 
+  },
+  "PF":{
+    "searchquery":"French%20Polynesia",
+    "population": 	280904 
+  },
+  "GA":{
+    "searchquery":"Gabon",
+    "population": 	2225728 
+  },
+  "GM":{
+    "searchquery":"Gambia",
+    "population": 2416664 
+  },
+  "GE":{
+    "searchquery":"Georgia",
+    "population": 3989175 
+  },
+  "DE":{
+    "searchquery":"Germany",
+    "population": 	83783945 
+  },
+  "GH":{
+    "searchquery":"Ghana",
+    "population": 	31072945 
+  },
+  "GI":{
+    "searchquery":"Gibraltar",
+    "population": 	33691 
+  },
+  "GR":{
+    "searchquery":"Greece",
+    "population": 	10423056 
+  },
+  "GL":{
+    "searchquery":"Greenland",
+    "population": 	56772 
+  },
+  "GD":{
+    "searchquery":"Grenada",
+    "population": 	112519 
+  },
+  "GU":{
+    "searchquery":"Guam",
+    "population": 	168783 
+  },
+  "GT":{
+    "searchquery":"Guatemala",
+    "population": 	17915567 
+  },
+  "GN":{
+    "searchquery":"Guinea",
+    "population": 	13132792 
+  },
+  "GW":{
+    "searchquery":"Guinea-Bissau",
+    "population": 	1967998 
+  },
+  "GY":{
+    "searchquery":"Guyana",
+    "population": 	786559 
+  },
+  "HT":{
+    "searchquery":"Haiti",
+    "population": 11402533 
+  },
+  "HN":{
+    "searchquery":"Honduras",
+    "population": 	9904608 
+  },
+  "HK":{
+    "searchquery":"Hong%20Kong",
+    "population": 7496988 
+  },
+  "HU":{
+    "searchquery":"Hungary",
+    "population": 	9660350 
+  },
+  "IS":{
+    "searchquery":"Iceland",
+    "population": 	341250 
+  },
+  "IN":{
+    "searchquery":"India",
+    "population": 	1380004385 
+  },
+  "ID":{
+    "searchquery":"Indonesia",
+    "population": 	273523621 
+  },
+  "IR":{
+    "searchquery":"Iran",
+    "population": 	83992953 
+  },
+  "IQ":{
+    "searchquery":"Iraq",
+    "population": 	40222503 
+  },
+  "IE":{
+    "searchquery":"Ireland",
+    "population": 	4937796 
+  },
+  "IM":{
+    "searchquery":"Isle%20of%20Man",
+    "population": 85032 
+  },
+  "IL":{
+    "searchquery":"Israel",
+    "population": 	8655541 
+  },
+  "IT":{
+    "searchquery":"Italy",
+    "population": 	60461828 
+  },
+  "JM":{
+    "searchquery":"Jamaica",
+    "population": 2961161 
+  },
+  "JP":{
+    "searchquery":"Japan",
+    "population": 126476458 
+  },
+  "JO":{
+    "searchquery":"Jordan",
+    "population": 10203140 
+  },
+  "KZ":{
+    "searchquery":"Kazakhstan",
+    "population": 18776707 
+  },
+  "KE":{
+    "searchquery":"Kenya",
+    "population": 	53771300 
+  },
+  "KI":{
+    "searchquery":"Kiribati",
+    "population": 	119446 
+  },
+  "KW":{
+    "searchquery":"Kuwait",
+    "population": 4270563 
+  },
+  "KG":{
+    "searchquery":"Kyrgyzstan",
+    "population": 6524191 
+  },
+  "LA":{
+    "searchquery":"Laos",
+    "population": 	7275556 
+  },
+  "LV":{
+    "searchquery":"Latvia",
+    "population": 1886202 
+  },
+  "LB":{
+    "searchquery":"Lebanon",
+    "population": 	6825442 
+  },
+  "LS":{
+    "searchquery":"Lesotho",
+    "population": 2142252 
+  },
+  "LR":{
+    "searchquery":"Liberia",
+    "population": 5057677 
+  },
+  "LY":{
+    "searchquery":"Libya",
+    "population": 	6871287 
+  },
+  "LI":{
+    "searchquery":"Liechtenstein",
+    "population": 	38137 
+  },
+  "LT":{
+    "searchquery":"Lithuania",
+    "population": 	2722291 
+  },
+  "LU":{
+    "searchquery":"Luxembourg",
+    "population": 	625976 
+  },
+  "MO":{
+    "searchquery":"Macao",
+    "population": 	649342 
+  },
+  "MK":{
+    "searchquery":"North%20Macedonia",
+    "population": 2083380 
+  },
+  "MG":{
+    "searchquery":"Madagascar",
+    "population": 	27691019 
+  },
+  "MW":{
+    "searchquery":"Malawi",
+    "population": 	19129955 
+  },
+  "MY":{
+    "searchquery":"Malaysia",
+    "population": 32365998 
+  },
+  "MV":{
+    "searchquery":"Maldives",
+    "population": 	540542 
+  },
+  "ML":{
+    "searchquery":"Mali",
+    "population": 	20250834 
+  },
+  "MT":{
+    "searchquery":"Malta",
+    "population": 	441539 
+  },
+  "MH":{
+    "searchquery":"Marshall%20Islands",
+    "population": 	59194 
+  },
+  "MR":{
+    "searchquery":"Mauritania",
+    "population": 	4649660 
+  },
+  "MU":{
+    "searchquery":"Mauritius",
+    "population": 1271767 
+  },
+  "MX":{
+    "searchquery":"Mexico",
+    "population": 128932753 
+  },
+  "FM":{
+    "searchquery":"Micronesia",
+    "population": 548927 
+  },
+  "MD":{
+    "searchquery":"Moldova",
+    "population": 4033963 
+  },
+  "MC":{
+    "searchquery":"Monaco",
+    "population": 	39244 
+  },
+  "MN":{
+    "searchquery":"Mongolia",
+    "population": 	3278292 
+  },
+  "ME":{
+    "searchquery":"Montenegro",
+    "population": 628062 
+  },
+  "MS":{
+    "searchquery":"Montserrat",
+    "population": 	4999 
+  },
+  "MA":{
+    "searchquery":"Morocco",
+    "population": 	36910558 
+  },
+  "MZ":{
+    "searchquery":"Mozambique",
+    "population": 	31255435 
+  },
+  "MM":{
+    "searchquery":"Myanmar",
+    "population": 54409794 
+  },
+  "NA":{
+    "searchquery":"Namibia",
+    "population": 2540916 
+  },
+  "NR":{
+    "searchquery":"Nauru",
+    "population": 	10834 
+  },
+  "NP":{
+    "searchquery":"Nepal",
+    "population": 29136808 
+  },
+  "NL":{
+    "searchquery":"Netherlands",
+    "population": 17134873 
+  },
+  "NC":{
+    "searchquery":"New%20Caledonia",
+    "population": 285491 
+  },
+  "NZ":{
+    "searchquery":"New%20Zealand",
+    "population": 	4822233 
+  },
+  "NI":{
+    "searchquery":"Nicaragua",
+    "population": 6624554 
+  },
+  "NE":{
+    "searchquery":"Niger",
+    "population": 24206636 
+  },
+  "NG":{
+    "searchquery":"Nigeria",
+    "population": 206139587 
+  },
+  "NU":{
+    "searchquery":"Niue",
+    "population": 1618 
+  },
+  "KP":{
+    "searchquery":"North%20Korea",
+    "population": 25778815 
+  },
+  "MP":{
+    "searchquery":"Northern%20Mariana%20Islands",
+    "population": 57557 
+  },
+  "NO":{
+    "searchquery":"Norway",
+    "population": 5421242 
+  },
+  "OM":{
+    "searchquery":"Oman",
+    "population": 	5106622 
+  },
+  "PK":{
+    "searchquery":"Pakistan",
+    "population": 	220892331 
+  },
+  "PW":{
+    "searchquery":"Palau",
+    "population": 18092 
+  },
+  "PS":{
+    "searchquery":"Palestine",
+    "population": 5101416 
+  },
+  "PA":{
+    "searchquery":"Panama",
+    "population": 4314768 
+  },
+  "PG":{
+    "searchquery":"Papua%20New%20Guinea",
+    "population": 8947027 
+  },
+  "PY":{
+    "searchquery":"Paraguay",
+    "population": 	7132530 
+  },
+  "PE":{
+    "searchquery":"Peru",
+    "population": 	32971846 
+  },
+  "PH":{
+    "searchquery":"Philippines",
+    "population": 	109581085 
+  },
+  "PN":{
+    "searchquery":"Pitcairn",
+    "population": 47 
+  },
+  "PL":{
+    "searchquery":"Poland",
+    "population": 	37846605 
+  },
+  "PT":{
+    "searchquery":"Portugal",
+    "population": 	10196707 
+  },
+  "PR":{
+    "searchquery":"Puerto%20Rico",
+    "population": 2860840 
+  },
+  "QA":{
+    "searchquery":"Qatar",
+    "population": 	2881060 
+  },
+  "RO":{
+    "searchquery":"Romania",
+    "population": 	19237682 
+  },
+  "RU":{
+    "searchquery":"Russia",
+    "population": 145934460 
+  },
+  "RW":{
+    "searchquery":"Rwanda",
+    "population": 12952209 
+  },
+  "SH":{
+    "searchquery":"Saint%20Helena",
+    "population": 6071 
+  },
+  "KN":{
+    "searchquery":"Saint%20Kitts%20and%20Nevis",
+    "population": 53192 
+  },
+  "LC":{
+    "searchquery":"Saint%20Lucia",
+    "population": 	183629 
+  },
+  "PM":{
+    "searchquery":"Saint%20Pierre%20and%20Miquelon",
+    "population": 	5795 
+  },
+  "VC":{
+    "searchquery":"Saint%20Vincent%20and%20the%20Grenadines",
+    "population": 	110947 
+  },
+  "WS":{
+    "searchquery":"Samoa",
+    "population": 198410 
+  },
+  "SM":{
+    "searchquery":"San%20Marino",
+    "population": 33938 
+  },
+  "ST":{
+    "searchquery":"Sao%20Tome%20and%20Principe",
+    "population": 219161 
+  },
+  "SA":{
+    "searchquery":"Saudi%20Arabia",
+    "population": 34813867 
+  },
+  "SN":{
+    "searchquery":"Senegal",
+    "population": 	16743930 
+  },
+  "RS":{
+    "searchquery":"Serbia",
+    "population": 6804596 
+  },
+  "SC":{
+    "searchquery":"Seychelles",
+    "population": 	98340 
+  },
+  "SL":{
+    "searchquery":"Sierra%20Leone",
+    "population": 	7976985 
+  },
+  "SG":{
+    "searchquery":"Singapore",
+    "population": 5850343 
+  },
+  "SX":{
+    "searchquery":"Sint%20Maarten%20(Dutch%20part)",
+    "population": 	42882 
+  },
+  "SK":{
+    "searchquery":"Slovakia",
+    "population": 5459643 
+  },
+  "SI":{
+    "searchquery":"Slovenia",
+    "population": 2078932 
+  },
+  "SB":{
+    "searchquery":"Solomon%20Islands",
+    "population": 686878 
+  },
+  "SO":{
+    "searchquery":"Somalia",
+    "population": 15893219 
+  },
+  "ZA":{
+    "searchquery":"South%20Africa",
+    "population": 59308690 
+  },
+  "KR":{
+    "searchquery":"South%20Korea",
+    "population": 	51269183 
+  },
+  "SS":{
+    "searchquery":"South%20Sudan",
+    "population": 11193729 
+  },
+  "ES":{
+    "searchquery":"Spain",
+    "population": 	46754783 
+  },
+  "LK":{
+    "searchquery":"Sri%20Lanka",
+    "population": 	21413250 
+  },
+  "SD":{
+    "searchquery":"Sudan",
+    "population": 	43849269 
+  },
+  "SR":{
+    "searchquery":"Suriname",
+    "population": 	586634 
+  },
+  "SZ":{
+    "searchquery":"Eswatini",
+    "population": 	1160164 
+  },
+  "SE":{
+    "searchquery":"Sweden",
+    "population": 	10099270 
+  },
+  "CH":{
+    "searchquery":"Switzerland",
+    "population": 	8654618 
+  },
+  "SY":{
+    "searchquery":"Syria",
+    "population": 	17500657 
+  },
+  "TW":{
+    "searchquery":"Taiwan",
+    "population": 23816775 
+  },
+  "TJ":{
+    "searchquery":"Tajikistan",
+    "population": 	9537642 
+  },
+  "TZ":{
+    "searchquery":"Tanzania",
+    "population": 59734213 
+  },
+  "TH":{
+    "searchquery":"Thailand",
+    "population": 	69799978 
+  },
+  "TL":{
+    "searchquery":"Timor",
+    "population": 1318442 
+  },
+  "TG":{
+    "searchquery":"Togo",
+    "population": 	8278737 
+  },
+  "TK":{
+    "searchquery":"Tokelau",
+    "population": 	1350 
+  },
+  "TO":{
+    "searchquery":"Tonga",
+    "population": 105697 
+  },
+  "TT":{
+    "searchquery":"Trinidad%20and%20Tobago",
+    "population": 1399491 
+  },
+  "TN":{
+    "searchquery":"Tunisia",
+    "population": 11818618 
+  },
+  "TR":{
+    "searchquery":"Turkey",
+    "population": 84339067 
+  },
+  "TM":{
+    "searchquery":"Turkmenistan",
+    "population": 	6031187 
+  },
+  "TC":{
+    "searchquery":"Turks%20and%20Caicos%20Islands",
+    "population": 38718 
+  },
+  "TV":{
+    "searchquery":"Tuvalu",
+    "population": 11792 
+  },
+  "UG":{
+    "searchquery":"Uganda",
+    "population": 45741000 
+  },
+  "UA":{
+    "searchquery":"Ukraine",
+    "population": 	43733759 
+  },
+  "AE":{
+    "searchquery":"United%20Arab%20Emirates",
+    "population": 	9890400 
+  },
+  "GB":{
+    "searchquery":"United%20Kingdom",
+    "population": 67886004 
+  },
+  "US":{
+    "searchquery":"United%20States",
+    "population": 331002647 
+  },
+  "VI":{
+    "searchquery":"United%20States%20Virgin%20Islands",
+    "population": 104423 
+  },
+  "UY":{
+    "searchquery":"Uruguay",
+    "population": 3473727 
+  },
+  "UZ":{
+    "searchquery":"Uzbekistan",
+    "population": 33469199 
+  },
+  "VU":{
+    "searchquery":"Vanuatu",
+    "population": 	307150 
+  },
+  "VE":{
+    "searchquery":"Venezuela",
+    "population": 	28435943 
+  },
+  "VN":{
+    "searchquery":"Vietnam",
+    "population": 	97338583 
+  },
+  "WF":{
+    "searchquery":"Wallis%20and%20Futuna",
+    "population": 	11246 
+  },
+  "EH":{
+    "searchquery":"Western%20Sahara",
+    "population": 597330 
+  },
+  "YE":{
+    "searchquery":"Yemen",
+    "population": 	29825968 
+  },
+  "ZM":{
+    "searchquery":"Zambia",
+    "population": 18383956 
+  },
+  "ZW":{
+    "searchquery":"Zimbabwe",
+    "population": 	14862927 
+  },
+  "GG":{
+    "searchquery":"Guernsey",
+    "population": 	67052 
+  },
+  "JE":{
+    "searchquery":"Jersey",
+    "population": 	101073 
+  }
+}

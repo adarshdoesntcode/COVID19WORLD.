@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COVID19 WORLD.</title>
+  <!------------------- CSS, FONT, ICON -------------------->
+  <link rel="stylesheet" href="./css/phonebrowserwarning.css">
+  <link rel="stylesheet" href="./css/searchbox.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.cdnfonts.com/css/archia" rel="stylesheet">
+  <link rel="icon" href="./img/icon.png">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="./css/odo.css">
+  <link rel="stylesheet" href="./css/modal.css">
+</head>
+
+<body class="bodylightmode">
+
+  <!------------------- NAVIGATION BAR -------------------->
+
+  <header class="navlightmode">
+    <a href="index.html">
+      <p id="logo">COVID19<span class="typewriter"></span></p>
+    </a>
+    <nav class="nav-links">
+      <ul>
+        <li><i title="Coming Soon" class="fas fa-globe"></i>
+
+        <li><i title="Night Mode" class="far fa-moon"></i></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!------------------- SEARCH BOX -------------------->
+  <div class="searchTitle">search your country</div>
+
+  <div class="wrapper">
+    <div class="search-input">
+      <div class="icon"><i class="fas fa-search"></i></div>
+      <input class="searchBox" type="text" placeholder="">
+      <div class="country-list">
+
+      </div>
+    </div>
+  </div>
+
+  <!------------------- CURRENT COUNTRY TITLE -------------------->
+  <div class="countryHeader">
+    <div class="countryHeaderName" data-aos="fade-left" data-aos-delay="400">
+      <h1 class="countryName">Loading..</h1>
+      <p class="lastUpdated">Last Updated on &nbsp;<span class="lastUpdatedDate"></span></p>
+    </div>
+    <div class="totalVaccinated" data-aos="fade-left" data-aos-delay="1000">
+      <h5>Vaccinated</h5>
+      <h2 class="vaccinatedTotal"> 0 <i class="fas fa-syringe"></i></h2>
+      <a href="https://ourworldindata.org/covid-vaccinations" class="source" target="_blank">source</a>
+    </div>
+  </div>
+  <!-- VACCINATED BAR -->
+  <div class="vaccinatedBar" data-aos="fade-up" data-aos-delay="600"> 
+    <div class="administered"><i class="fas fa-shield-alt"></i> vaccine doses admininstered</div>
+
+    <div class="label-wrapper" ><div class="lable-one">At least one dose <span class="onePercentage">(0.0%)</span></div></div>
+      <div class="arrow-wrapper"><div class="one-arrow-width">|</div></div>
+
+    <div class="progress-bar">
+      <div class="fullyvac"></div>
+      <div class="partialvac"></div>
+    </div>
+
+    <div class="arrow-wrapper"><div class="full-arrow-width">|</div></div>
+    <div class="label-wrapper"><div class="lable-full">Fully vaccinated <span class="fullPercentage">(0.0%)</span></div></div>
+    </div>
+ 
+  <!-- DASHBOARD TIME STAMP -->
+  <div data-aos="fade-left" data-aos-delay="1000">
+    <div class="timeStampBar">
+      <div class="switch today">
+        <p class="yesterdaylbl">Yesterday</p>
+        <p class="todaylbl">Today</p>
+        <div class="innerflip"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clr"></div>
+  <!------------------- DASHBOARD -------------------->
+  <div class="dashboard">
+    <!--CONFIRMED-->
+    <div data-aos="fade-up" data-aos-delay="200">
+      <div class="confirmed">
+        <div class="confirmedStats" data-aos="fade-up" data-aos-delay="800">
+          <h5>Confirmed</h5>
+          <p class="confirmedNew ">+0</p>
+          <p class="confirmedTotal">Loading..</p>
+        </div>
+        <div class="confirmedGraph">
+          <canvas id="confirmendChart" width="150" height="95"></canvas></div>
+      </div>
+    </div>
+    <!--ACTIVE-->
+    <div data-aos="fade-up" data-aos-delay="400">
+      <div class="active">
+        <div class="activeStats" data-aos="fade-up" data-aos-delay="1000">
+          <h5>Active</h5>
+          <p class="activeNew">+0</p>
+          <p class="activeTotal">Loading..</p>
+        </div>
+        <div class="activeGraph">
+          <canvas id="activeChart" width="150" height="95"></canvas></div>
+      </div>
+    </div>
+    <!--RECOVERED-->
+    <div data-aos="fade-up" data-aos-delay="600">
+      <div class="recovered">
+        <div class="recoveredStats" data-aos="fade-up" data-aos-delay="1200">
+          <h5>Recovered</h5>
+          <p class="recoveredNew">+0</p>
+          <p class="recoveredTotal">Loading..</p>
+        </div>
+        <div class="recoveredGraph">
+          <canvas id="recoveredChart" width="150" height="95"></canvas></div>
+      </div>
+    </div>
+    <!--DEATHS-->
+    <div data-aos="fade-up" data-aos-delay="800">
+      <div class="deaths">
+        <div class="deathsStats" data-aos="fade-up" data-aos-delay="1400">
+          <h5>Deceased</h5>
+          <p class="deathsNew">+0</p>
+          <p class="deathsTotal">Loading..</p>
+        </div>
+        <div class="deathsGraph">
+          <canvas id="deathsChart" width="150" height="95"></canvas></div>
+      </div>
+    </div>
+  </div>
+  <!------------------- TIME STAMP FOR BIG GRAPH -------------------->
+
+  <div class="timeStampContainer">
+    <div class="modal">
+      <div class="modalContent">
+        <h3 class="category"></h3>
+        <div class="modaltable">
+          <table class="modaltableContent">
+
+          </table>
+        </div>
+        <i class="fas fa-times"></i>
+      </div>
+    </div>
+
+    <div data-aos="fade-left" data-aos-delay="1000"> 
+    <div class="timeStamp">
+      <div class="switchGr twoMon">
+        <p class="one-yearlbl">1Y</p>
+        <p class="six-monthlbl">6M</p>
+        <p class="two-monthlbl">2M</p>
+        <div class="innerflipGr"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!------------------- BIG GRAPH -------------------->
+  <div class="bigGraph" data-aos="fade-up" data-aos-delay="100">
+    <canvas id="bigConfirmedGraph" width="360" height="200"></canvas></div>
+  </div>
+
+  <!------------------- FOOTER -------------------->
+  <footer>
+    <p>COVID19 <span>WORLD.</span></p>
+    <p class="message">don't forget to wear your mask.</p>
+    <p>
+      <a href="https://github.com/adarsh-codes" target="_blank"> <i class="fab fa-github"></i></a>
+      <a href="https://covid19api.com/" target="_blank"><i class="fas fa-database"></i></a>
+
+      <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank"><i
+          class="fas fa-book-open"></i></a>
+    </p>
+
+  </footer>
+  <!-- MOBILE WARNING DIV -->
+  <div class = "phone-warning">
+    <div class="phone-warning-content">
+      <h2>COVID19<span style="color: #007bff;">WORLD</span>.</h2>
+      <p class="phone-message">please use a desktop browser.<br> <br>still working on the mobile version.
+      </p>
+      <p class="guide-link">adarshdas.com.np/covid</p>
+    </div>
+    
+  
+  </div>
+
+  <!------------------- JAVASCRIPT -------------------->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.1/chart.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.1/papaparse.min.js" integrity="sha512-EbdJQSugx0nVWrtyK3JdQQ/03mS3Q1UiAhRtErbwl1YL/+e2hZdlIcSURxxh7WXHTzn83sjlh2rysACoJGfb6g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./js/odometer.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="./js/getIPandCountryData.js"></script>
+  <script src="./js/darkmode.js"></script>
+  <script src="./js/typewriter.js"></script>
+  <script src="./js/bigGraph.js"></script>
+  <script src="./js/dashboardGraph.js"></script>
+  <script src="./js/vaccine.js"></script>
+  <script src="./js/modal.js"></script>
+  <script src="./js/searchCountry.js"></script>
+
+ 
+
+  <script>
+    AOS.init({
+      offset: 1,
+      duration: 700,
+    });
+  </script>
+</body>
+
+</html>

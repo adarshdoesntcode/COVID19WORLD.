@@ -1,0 +1,46 @@
+.phone-warning
+  {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 21;
+   background-color: white;
+  }
+  .phone-warning-content
+    {
+      position: relative;
+
+    }
+  .phone-warning-content h2
+    { 
+      position: absolute;
+      left: 90px ;
+      top: 180px;
+    }
+
+    .phone-warning-content .phone-message
+      {
+        position: absolute;
+        left: 48px;
+        top: 235px;
+        text-align: center;
+      }
+      .phone-warning-content .guide-link
+        {
+          position: absolute;
+          left: 90px;
+          top: 435px;
+          text-align: center;
+        }
+
+@media (max-width:850px) {
+  .phone-warning
+    {
+      visibility: visible;
+      opacity: 1;
+    }
+}

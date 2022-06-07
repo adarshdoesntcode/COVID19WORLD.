@@ -1,0 +1,150 @@
+.modal {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 20;
+    backdrop-filter: blur(6px);
+    transition: visibility 0ms,opacity 400ms;
+}
+
+.modal-active
+    {
+        visibility: visible;
+        opacity: 1;
+    }
+
+.modalContent {
+    position: relative;
+    box-shadow: 0 10px 35px rgb(0 0 0 / 18%);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    height: 80%;
+    width: 700px;
+    margin-top: 5%;
+    border-radius: 10px;
+    overflow-y: scroll;
+  
+}
+
+#Dark
+    {
+        background-color: #161625;
+    }
+
+
+.modalContent > i {
+    cursor: pointer;
+    font-size: 25px;
+    position: absolute;
+    right: 18px;
+    top: 18px;
+
+}
+
+
+.modaltableContent {
+    font-size: 14px;
+    width: 550px;
+    margin-left: 65px;
+    margin-right: 85px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.confirmedTable tbody:nth-child(odd) {
+    background-color: #ff07390c;
+}
+
+.confirmedTable th {
+    color: #ff073a;
+    background-color: #ff073917;
+    padding: 6px;
+    width: 170px;
+}
+
+.confirmedTable td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.activeTable tbody:nth-child(odd) {
+    background-color: #007bff0c;
+}
+
+.activeTable th {
+    color: #007bff;
+    background-color: #007bff1a;
+    padding: 6px;
+    width: 170px;
+}
+
+.activeTable td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.recoveredTable tbody:nth-child(odd) {
+    background-color: #28a74617;
+}
+
+.recoveredTable th {
+    color: #28a745;
+    background-color: #28a74627;
+    padding: 6px;
+    width: 170px;
+}
+
+.recoveredTable td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.deathsTable tbody:nth-child(odd) {
+    background-color: #6c757d1a;
+}
+
+.deathsTable th {
+    color: #6c757d;
+    background-color: #6c757d28;
+    padding: 6px;
+    width: 170px;
+}
+
+.deathsTable td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.confirmedModalHeading {
+    padding: 10px;
+    padding-top: 25px;
+    text-align: center;
+    color: #ff073a;
+}
+
+.activeModalHeading {
+    padding: 10px;
+    padding-top: 25px;
+    text-align: center;
+    color: #007bff;
+}
+
+.recoveredModalHeading {
+    padding: 10px;
+    padding-top: 25px;
+    text-align: center;
+    color: #28a745;
+}
+
+.deathsModalHeading {
+    padding: 10px;
+    padding-top: 25px;
+    text-align: center;
+    color: #6c757d;
+}
